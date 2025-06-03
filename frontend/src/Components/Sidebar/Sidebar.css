@@ -1,0 +1,100 @@
+/* Sidebar Styles */
+.sidebar {
+  position: fixed;
+  left: -290px; /* Initially hidden */
+  top: 0;
+  bottom: 0;
+  width: 290px;
+  background-color: var(--tertiary);
+  color: var(--primary);
+  transition: left 0.3s ease;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  z-index: 20;
+  overflow-y: auto;
+}
+.sidebar h4 {
+  font-family: var(--text);
+  font-weight: 800;
+}
+
+.sidebar.open {
+  left: 0; /* Move sidebar into view when open */
+}
+
+.close-sidebar {
+  position: absolute;
+  top: 7px;
+  right: 10px;
+  color: var(--primary);
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.drag-and-drop {
+  width: 16rem;
+  background-color: var(--secondary);
+  color: var(--tertiary);
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 12px 12px 8px rgba(0, 0, 0, 0.1);
+}
+.drop-file {
+  font-weight: 600;
+  font-size: 17px;
+}
+.file-formats {
+  font-size: 13px;
+}
+
+.custom-input {
+  color: var(--tertiary);
+}
+.custom-input::placeholder {
+  opacity: 0.8;
+  color: var(--tertiary);
+}
+.custom-file-label {
+  background-color: white;
+  color: var(--primary);
+  padding: 6px 12px;
+  border-radius: 7px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  overflow: hidden;
+  position: relative;
+}
+
+.custom-file-label input[type="file"] {
+  display: none;
+}
+.see-uploaded-documents p {
+  cursor: pointer;
+  text-decoration: underline;
+}
+/* custom scrollBar */
+.sidebar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: var(
+    --secondary
+  ); 
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 850px) {
+  .sidebar {
+    width: 250px;
+    left: -300px;
+  }
+  .drag-and-drop {
+    width: 13.5rem;
+
+    padding: 1.5rem;
+  }
+}

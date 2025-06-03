@@ -1,0 +1,9 @@
+.container-fluid{
+    display: flex;
+    gap: 25px;
+}
+.expand-sidebar, .new-chat{
+    color: var(--tertiary);
+    font-size: 25px;
+    cursor: pointer;
+}

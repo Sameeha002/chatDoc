@@ -1,0 +1,12 @@
+:root {
+  --primary: #333333;
+  --secondary: #4D4D4D;
+  --tertiary: #CBDFBD;
+  --text: "Lato", sans-serif;
+}
+
+body{
+  background-color: #333333;
+  font-family: "Lato";
+}
+
