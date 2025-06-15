@@ -1,4 +1,4 @@
-![Screenshot (83)](https://github.com/user-attachments/assets/47d3535c-05e0-492b-bb94-5e716700e042)# Chat With Documents – Full-Stack RAG-Powered AI Application
+# Chat With Documents – Full-Stack RAG-Powered AI Application
 ## Overview
 
 Developed an AI-powered web app for my Client that enables users to upload documents (PDFs, TXT, DOC, DOCX, CSV) and interact with them via a smart chat interface. I built the full-stack solution using React, Vite, and FastAPI, with OpenAI’s API and FAISS for semantic search. Integrated secure file uploads, and a Retrieval-Augmented Generation (RAG) pipeline for accurate, context-aware responses. Delivered a scalable, intuitive solution that simplifies document comprehension and enhances productivity.
