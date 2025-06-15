@@ -24,41 +24,41 @@ Developed an AI-powered web app for my Client that enables users to upload docum
 
 ### 1. Clone the Repository
 
-```bash```
+```bash``` <br />
 git clone https://github.com/sameehaasim002/chat-with-doc.git<br />
 cd chat-with-doc
 
 ### 2. Backend Setup
 
-cd backend
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-uvicorn main:app --reload
+cd backend <br />
+python -m venv venv <br />
+source venv/bin/activate  # On Windows: venv\Scripts\activate <br />
+pip install -r requirements.txt <br />
+uvicorn main:app --reload <br />
 
 ### 3. Frontend Setup
 
-cd frontend
-npm install
-npm run dev
+cd frontend <br />
+npm install <br />
+npm run dev <br />
 
 ### 4. ⚙️ Environment Variables
 
-Create a .env file in the backend/ directory with the following:
-OPENAI_API_KEY=your_openai_key
+Create a .env file in the backend/ directory with the following: <br />
+OPENAI_API_KEY=your_openai_key <br />
 
 ## 📄 Project Structure
-chat-with-doc/
-├── backend/
-│   ├── main.py
-│   ├── models/
-│   ├── routes/
-│   ├── rag_pipeline/
-│   └── ...
-├── frontend/
-│   ├── src/
-│   ├── components/
-│   └── ...
+chat-with-doc/ <br />
+├── backend/ <br />
+│   ├── main.py <br />
+│   ├── models/ <br />
+│   ├── routes/ <br />
+│   ├── rag_pipeline/ <br />
+│   └── ... <br />
+├── frontend/ <br />
+│   ├── src/ <br />
+│   ├── components/ <br />
+│   └── ... <br />
 
 ## Demo
 ![Home Page](https://github.com/user-attachments/assets/57f22858-5ffa-48bc-ab94-246f27353cc8)
