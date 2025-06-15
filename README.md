@@ -25,7 +25,7 @@ Developed an AI-powered web app for my Client that enables users to upload docum
 ### 1. Clone the Repository
 
 ```bash```
-git clone https://github.com/sameehaasim002/chat-with-doc.git
+git clone https://github.com/sameehaasim002/chat-with-doc.git<br />
 cd chat-with-doc
 
 ### 2. Backend Setup
